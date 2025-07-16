@@ -14,7 +14,7 @@ This project demonstrates how to build a serverless Generative AI application us
 
 ## 📊 Architecture
 
-![Architecture Diagram](./architecture/Architecture_Diagram.png)
+![Architecture Diagram](./Architecture/Architecture_Diagram.png)
 
 ---
 
