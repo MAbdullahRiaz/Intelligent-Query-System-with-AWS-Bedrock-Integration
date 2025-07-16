@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.4">
+  <diagram name="Page-1" id="Ki3jS-LnkiJEDNTj_X9n">
+    <mxGraphModel dx="1507" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;User&lt;/font&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
+          <mxGeometry x="85" y="230" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="335" y="216" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-3" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="665" y="216" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AWS Bedrock&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.bedrock;" vertex="1" parent="1">
+          <mxGeometry x="665" y="432" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Cohere&lt;br&gt;Foundational Model&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.iot_core;" vertex="1" parent="1">
+          <mxGeometry x="325" y="432" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;RestAPI Request(prompt)&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2crvMJo4BW5-_i1_rzT8-1" target="2crvMJo4BW5-_i1_rzT8-2">
+          <mxGeometry x="0.0018" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Summarized Response&lt;/font&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2crvMJo4BW5-_i1_rzT8-2" target="2crvMJo4BW5-_i1_rzT8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="465" y="280" as="sourcePoint" />
+            <mxPoint x="595" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="2crvMJo4BW5-_i1_rzT8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="704" y="340" as="sourcePoint" />
+            <mxPoint x="695" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2crvMJo4BW5-_i1_rzT8-5" target="2crvMJo4BW5-_i1_rzT8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="470" as="sourcePoint" />
+            <mxPoint x="585" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Lambda Invocation&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="465" y="216" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2crvMJo4BW5-_i1_rzT8-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="704" y="432" as="sourcePoint" />
+            <mxPoint x="704" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Invoke LLM Model&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Postman&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/iOS___Web_User_Interface_Multi_Circle_Flat_vol_5-2796/Collaboration_group_people_men_user_team_users-1282.svg;strokeColor=#FF8000;fillColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="75" y="90" width="82" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="2crvMJo4BW5-_i1_rzT8-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Testing Endpoint&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2crvMJo4BW5-_i1_rzT8-16" target="2crvMJo4BW5-_i1_rzT8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
