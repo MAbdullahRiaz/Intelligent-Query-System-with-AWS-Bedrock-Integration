@@ -45,9 +45,9 @@ This project demonstrates how to build a serverless Generative AI application us
 ---
 ## Sample Response
 
-
-```json
 {
-    "statusCode": 200,
-    "body": "\" The turbine model TB-CL-7882 experienced cracks due to reduced tensile strength of the nut connecting the blade, last maintenance was carried out with no issues.\""
+  "statusCode": 200,
+  "body": "\"The turbine model TB-CL-7882 experienced cracks due to reduced tensile strength of the nut connecting the blade. Last maintenance was carried out with no issues.\""
 }
+
+
