@@ -12,7 +12,7 @@ This project demonstrates how to build a serverless Generative AI application us
 
 ---
 
-## 📊 Architecture
+## 📊 Architecture Diagram
 
 ![Architecture Diagram](./Architecture/Architecture_Diagram.png)
 
@@ -37,9 +37,24 @@ This project demonstrates how to build a serverless Generative AI application us
 
 ---
 
-## 🧪 Sample Prompt (test_prompts/sample_prompt.json)
+## 🧪 Sample Prompt
 
 ```json
 {
-  "prompt": "Summarize the impact of generative AI on education."
+  "prompt": "This is a on-site log report of turbine breakdown.
+Issue Log Date – 25-12-2023, Model Number – TB-CL-7882, Issue - Cracks appeared in the part MR 7882-9571
+next to the rotor hub. The nut connecting the rotor blade to the rotor hub seems to be damaged. The
+Anemometer readings seem to be within range. The electric braking seems to be unused. No indication of
+damage to any other component of the turbine except normal wear and tear.
+Potential Root Cause – Seems due to reduced tensile strength of the nut connecting the blade to the rotor.
+Last Maintenance Date – 12-12-2023, Last Maintenance Issues Recorded - No known issues recorded and all
+the parameters were within range.
+Summarize the text in 2 lines."
+}
+
+## 🧪 Response
+```json
+{
+    "statusCode": 200,
+    "body": "\" The turbine model TB-CL-7882 experienced cracks due to reduced tensile strength of the nut connecting the blade, last maintenance was carried out with no issues.\""
 }
